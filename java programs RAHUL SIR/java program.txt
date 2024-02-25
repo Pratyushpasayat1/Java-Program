@@ -1,0 +1,718 @@
+(1)package pratyush;
+
+public class Class6 {
+public static void main(String[]args) {
+	System.out.println("Start");
+	int a=10;
+	 int b=20;
+	 int c=a+b;
+	 System.out.println(c);
+	 System.out.println("end");
+	 int d=a-b;
+	 int e=a*b;
+	 int f=a%b;
+	 int g=a/b;
+	 System.out.println(d);
+	 System.out.println(e);
+	 System.out.println(f);
+	 System.out.println(g);	 
+}
+}
+
+2.
+
+public static void main(String[]args) {  // widening
+	int a=10;
+	System.out.println(a);
+	double b=a;
+	System.out.println(b);
+3.
+ char a=('c')	;//char to int
+int b=a;
+System.out.println(b);
+
+4.public static void main(String[] args) {
+char a=('ଅ')	;
+System.out.println(a); //aski value of ଅ
+int b=a;
+System.out.println(b);
+out put=2821
+
+5.
+int a =10;    //narrowing
+double b=a;
+int c=(int)b;
+System.out.println(c);
+
+6.
+char c=('z');
+double d=c;
+System.out.println(d);
+
+int e=65;       //int to char
+char f=(char)e;
+System.out.println(f);
+
+float g=90.0f;   //float to char
+char h=(char)g;
+System.out.println(g);
+
+output=122.0
+A
+90.0
+
+
+7.byte a=28;
+int b=a;
+System.out.println(b);
+
+double c=68.4879;
+char d= (char)c;
+System.out.println(d);
+
+float e=48;
+int f=(int)e;
+System.out.println(f);
+short g=90;
+char h=(char)g;
+System.out.println(h);
+
+8.System.out.println(10+'A'+'B'+'C'+'D');   //addition of strings ,integers,characters
+System.out.println('A'+'B'+'C'+'D'+67+45+"HII"+'A'+'B'+'D'+'F');
+System.out.println('A'+'B');
+System.out.println("HII"+20+40+50+'A'+'B'+'C'+'D'+'!');
+System.out.println('A'+'B'+'Z'+'z'+'!'+78+48+'!'+'?'+1+2+"HII");
+System.out.println(28+10500+128+'A'+'#'+'@'+'/'+"HII"+20);
+System.out.println('/'+'%'+'$'+'*'+78+128+"hii"+'#'+'!'+'?'+28);
+out put=276
+378HIIABDF
+131
+HII204050ABCD!
+601HII
+10867HII20
+368hii#!?28
+
+
+9.
+int a=21;
+	int b=23;
+	int c=++a - --b + ++a + --b +  ++b;   //adding or substracting.
+	System.out.println(c);
+	System.out.println(a);
+	System.out.println(b);
+output=66
+23
+22
+
+10=
+int a=9;
+	int b=10;
+	int c=12;
+	int d=++a - --b + c++ + --b - --a - b++ + c++ - b-- + ++c - --c + ++c + c--  ;   //adding or substracting.
+	System.out.println(d);
+	System.out.println(a);
+	System.out.println(b);
+	System.out.println(c);
+output=39
+9
+8
+14
+
+11.
+int a=10;
+	int b=11;
+	boolean c=a++ + b++ > --a + b++ || b++ + a-->b--;   //psudocoade program.
+System.out.println(c);	
+System.out.println(a);
+System.out.println(b);
+output=true
+9
+13
+
+14.
+int age =12;       //ternary operator
+	String a=(age>=21)? "Eligible to marry":"Better lock next time";
+System.out.println(a);
+}
+output=Better lock next time
+
+15.
+int age =23;       //ternary operator
+	String a=(age>=21)? "Eligible to marry":"Better luck next time";
+System.out.println(a);
+output=Eligible to marry
+
+16.
+int a =25;       //ternary operator
+	int b=35;
+	String c=(a>b)?"a is grater":"b is grater";
+	
+System.out.print(c);
+output=b is grater
+
+17.	int a =20;       //ternary operator
+	int b=3;
+	String c=(a>b)?"a is grater":"b is grater";
+	
+System.out.print(c);
+output=
+a is grater
+19.
+int a=26;
+	String b=(a>0)?"possitive":"negative";
+System.out.println(b);
+int c=10;
+String d=(c<0)?"possitive":"negative";
+System.out.println(d);
+output=possitive
+
+18.int a=57;
+	String  b=(a%2==0)?"a is even":" a is odd";   // even number checking
+System.out.println(b);
+output=a is odd
+
+19.
+int a=22;
+	String  b=(a%2==0)?"a is even":" a is odd";   // even number checking
+System.out.println(b);
+output=a is even
+20.
+int a=10;
+  a+=10;
+	System.out.println(a);     //  compoud assignment opereator
+	int b=10;
+	b-=10;
+	System.out.println(b);
+	int c=10;
+	c*=10;
+	System.out.println(c);
+	int d =10;
+	d%=10;
+	System.out.println(d);
+	int e=10;
+	e/=10;
+	System.out.println(e);
+	
+output=20
+0
+100
+0
+1
+
+21.
+int a=10;
+	System.out.println(a+=10);
+	System.out.println(a-=10);
+	System.out.println(a*=10);
+	System.out.println(a/=10);
+	System.out.println(a%=10);
+	System.out.println(a==20);
+output=20
+10
+100
+10
+0
+false
+22.
+int a= 48;
+	if (a>0)     //simple if
+	{
+		System.out.println("possitive");
+         }
+          }}
+output=possitive
+23.
+int a= 73;
+	if (a%2==0) {    //if else
+		System.out.println("even");
+	}
+	
+	else {
+		System.out.println("odd");
+	}
+
+}
+}	 
+output=odd
+24.
+int raju= 26;
+	if (raju>=21) {    //if else
+		System.out.println("allowed to use app");
+	}
+	
+	else {
+		System.out.println("is not allowed to use");
+	}
+output=allowed to use app
+25.
+int raju= 20;
+	if (raju>=21) {    //if else
+		System.out.println("allowed to use app");
+	}
+	
+	else {
+		System.out.println("is not allowed to use");
+	}
+output=is not allowed to use
+26.
+int a= 44;
+	int b=36;
+	if (a>b)
+	{                                                             //if else
+		System.out.println("a is grater.");
+	}
+	
+	else
+	{
+		System.out.println("b is grater.");
+	}
+output=a is grater.
+27.
+int a= 21;
+	int b=26;
+	if (a>b)
+	{                                                             //if else
+		System.out.println("a is grater.");
+	}
+	
+	else
+	{
+		System.out.println("b is grater.");
+	}
+output=b is grater.
+28
+int a= 789;
+	
+	if (a==123)
+	{
+		System.out.println("login");         //else if lader
+	}
+		else if(a==158)
+		{	
+		
+			System.out.println("login.");
+	
+		}
+		else 
+		{
+			System.out.println("not login.");
+output=not login.
+29.
+int a= 789;
+	
+	if (a==123)
+	{
+		System.out.println("login");         //else if lader
+	}
+		else if(a==789)
+		{	
+		
+			System.out.println("login.");
+	
+		}
+		else 
+		{
+			System.out.println("not login.");
+		}
+output=login.
+30.
+int a=100;
+	int b=20;
+	int c=30;
+	
+	if (a>b && a>c)      // comparision between three numbers
+	{
+		System.out.println("a is grater.");
+	}
+	else if ( b>c)
+	{
+		System.out.println("b is grater.");
+	}
+	else 
+	{
+		System.out.println("c is grater.");
+	}
+out put=a is grater.
+31.
+
+	int a=100;
+	int b=250;
+	int c=30;
+	
+	if (a>b && a>c)      // comparision between three numbers
+	{
+		System.out.println("a is grater.");
+	}
+	else if ( b>c)
+	{
+		System.out.println("b is grater.");
+	}
+	else 
+	{
+		System.out.println("c is grater.");
+	} 
+output=
+b is grater.
+32.
+
+	int a=68;
+	
+	if ( a>=0 && a<=25)             //  if class will go por not
+	{
+		System.out.println("cancel the class.");
+	}
+	else if ( a>=25 && a<=45)
+	{
+		System.out.println(" games.");
+	}
+	else if(a>=45 && a<=80)
+	{
+		System.out.println("teaching.");
+	}
+	else if ( a>=80  && a<=150)
+	{
+		System.out.println("presentation till 7pm.");
+	}
+	else 
+	{
+		System.out.println("number invalid.");
+	}
+output=
+teaching.
+
+33.
+int Jagu=16;
+	
+	if ( Jagu>=0 && Jagu<=15)             
+	{
+		System.out.println("child hood.");      //chaking age of raju.
+	}
+	else if ( Jagu>=15 && Jagu<=20)
+	{
+		System.out.println("Teen age.");
+	}
+	else if(Jagu>=20 && Jagu<=30)
+	{
+		System.out.println("Adult.");
+	}
+	else if ( Jagu>=30  && Jagu<=50)
+	{
+		System.out.println("Middle age.");
+	}
+	else if(Jagu>=50 && Jagu<=100)
+	{
+		System.out.println("Old age.");
+	}
+	else {
+		System.out.println("In valid age.");
+	}
+output=Teen age.
+
+34.
+public class Class6 {
+public static void main(String[] args) {
+	
+	int a=17;            //finding the buzz numer
+	                     //number  divisible by 7 or having the last number is 7.
+	
+	if (a%10==7 || a%7==0)             
+	{
+		System.out.println("a is buzz");      
+	}
+	else {
+		System.out.println(" a is not a buzz number.");
+output=a is buzz
+35.
+int a=14;            //finding the buzz numer
+	                     //number  divisible by 7 or having the last number is 7.
+	
+	if (a%10==7 || a%7==0)             
+	{
+		System.out.println("a is buzz");      
+	}
+	else {
+		System.out.println(" a is not a buzz number.");
+	}
+output=a is buzz.
+36.
+switch(1)
+	{
+	case 1:System.out.println("Mango.");     //switch statement
+	break;
+	case 2:System.out.println("Apple.");
+	break;
+	case 3:System.out.println("Painaple.");
+	break;
+	case 4:System.out.println("Grapes.");
+	}
+output=
+mango.
+
+37.
+switch('X')
+	{
+	case 'A':System.out.println("Mango.");     //switch statement  "character"
+	break;
+	case 'B':System.out.println("Apple.");
+	break;
+	case 'C':System.out.println("Painaple.");
+	break;
+	case 'D':System.out.println("Grapes.");
+	break;
+	default:System.out.println("GO TO NEXT SHOP.");
+	}
+output=GO TO NEXT SHOP.
+38.
+switch('B')
+	{
+	case 65:System.out.println("Mango.");     //switch statement  "character accept also aski values"
+	break;
+	case 66:System.out.println("Apple.");
+	break;
+	case 67:System.out.println("Painaple.");
+	break;
+	case 68:System.out.println("Grapes.");
+	break;
+	default:System.out.println("GO TO NEXT SHOP.");
+output=
+Apple.
+
+      (LOOPING PART)
+
+1.
+int a;
+	for(  a=1;  a<=10; a++)       // for loop.
+	{
+		System.out.println(a);
+	}
+OUTPUT=1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+2.
+int a;
+	for(  a=10;  a>=1; a--)       // for loop.
+	{
+		System.out.println(a);
+	}
+output=
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+
+3.
+int a;
+	for(  a=1;  a<=10; a++)          // for loop.'[PRINTING 10 times chiku
+	{
+		System.out.println("...CHIKU...");
+	}
+output=
+...CHIKU...
+...CHIKU...
+...CHIKU...
+...CHIKU...
+...CHIKU...
+...CHIKU...
+...CHIKU...
+...CHIKU...
+...CHIKU...
+
+4.
+int a ;
+for (a=20; a>=2 ; a--)      // in reverse order even number.
+{
+	if (a%2==0)
+		System.out.println(a);
+}
+output=
+20
+18
+16
+14
+12
+10
+8
+6
+4
+2
+
+5.
+int b;
+	for (b=2 ; b<=20 ; b++)     // even number in 2 to 20.
+	{
+		if(b%2==0)
+			System.out.println(b);
+	}
+output=2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+
+6.
+ int a ;
+for (a =1; a<=10 ; a++)        //5*1=5
+{
+	System.out.println( "5*"+a  +"="+5*a);
+}
+	int b;
+	for (b=1 ; b<=10 ; b++)      //2*1=2
+	{
+		System.out.println("2*"+b+"="+2*b);
+	}
+	
+output=5*1=5
+5*2=10
+5*3=15
+5*4=20
+5*5=25
+5*6=30
+5*7=35
+5*8=40
+5*9=45
+5*10=50
+2*1=2
+2*2=4
+2*3=6
+2*4=8
+2*5=10
+2*6=12
+2*7=14
+2*8=16
+2*9=18
+2*10=20
+
+7.
+int a =2;
+ for( int i=1 ; i<=10 ; i++)     // good to do.
+ {
+	 System.out.println(a+"*"+i+"="+a*i);
+ }
+output=
+2*1=2
+2*2=4
+2*3=6
+2*4=8
+2*5=10
+2*6=12
+2*7=14
+2*8=16
+2*9=18
+2*10=20
+
+8.
+ int a =2;                         //inverse of 2*10=20
+ for (int b=10 ; b>=1 ; b--) {
+	 System.out.println(a +"*"+b+"="+a*b);
+ }
+output=
+2*10=20
+2*9=18
+2*8=16
+2*7=14
+2*6=12
+2*5=10
+2*4=8
+2*3=6
+2*2=4
+2*1=2
+
+9.
+ int i=1;
+ do 
+ {
+	 System.out.println(i);   //do while loop
+	 i++;
+ }
+ while (i<=5);
+ 
+ output=
+1
+2
+3
+4
+5
+10.
+int i=10;
+ do 
+ {
+	 System.out.println(i);   //do while loop
+	 i--;
+ }
+ while (i>=1);
+ op=
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+
+11.
+                                      //reverse order odd number
+{
+ int i=20;
+ do 
+ {
+	 if (i%2==1)
+	 {
+		 System.out.println(i);
+	 }
+	 i--;
+ }
+         while(i>=0);
+op=
+19
+17
+15
+13
+11
+9
+7
+5
+3
+1
+
+12.
+ int n=5;
+     for(int i=1 ; i<=n ; i++)
+     {                             //pattern problem using for loop
+    	 for(int j=1 ; j<=n ; j++)
+    	 {
+    		 System.out.print("* ");
+    	 }
+    	 System.out.println();
+     }
+
+ op=
+* * * * * 
+* * * * * 
+* * * * * 
+* * * * * 
+* * * * * 
+
+13.
+
